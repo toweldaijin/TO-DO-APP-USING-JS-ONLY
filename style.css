@@ -17,6 +17,7 @@ button {
 button:hover{
     background-color: #5D534A ;
     color: #fff;
+    cursor: pointer;
 }
 
 .inputArea {
@@ -44,4 +45,21 @@ button:hover{
     padding: 8px;
     margin: 8px;
     border-radius: 8px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+    color:#25211e;
+}
+
+.listRow {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+.taskTitle {
+    margin-right: 8px;
 }
