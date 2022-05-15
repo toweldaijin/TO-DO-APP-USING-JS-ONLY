@@ -11,9 +11,7 @@ const onClickAdd = () => {
     /* div生成 */
     const div = document.createElement("div");
     div.className = "listRow";
-    const p = document.createElement("p");
-    p.className = "taskTitle";
-    p.textContent = inputText;
+    div.innerText = inputText;
 
     /* Button(完了)作成 */
     const completeButton = document.createElement("button");
