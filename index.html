@@ -9,14 +9,16 @@
 </head>
 <body>
 
+<!-- 入力エリア -->
     <div class="inputArea">
-        <input placeholder="タスクを入力">
-        <button>追加</button>
+        <input id="addText" placeholder="タスクを入力">
+        <button id="addButton">追加</button>
     </div>
 
+<!-- 未完了のタスク -->
     <div class="imcompleteArea">
         <p class="title">未完了のタスク</p>
-        <ul>
+        <ul id="imcompleteList">
             <li>
                 <div class="listRow">
                     <p class="taskTitle">タスク１</p>
@@ -34,6 +36,7 @@
         </ul>
     </div>
 
+ <!-- 完了したタスク -->
     <div class="completedArea">
         <p class="title">完了したタスク</p>
         <ul>
@@ -45,5 +48,7 @@
             </li>
         </ul>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
